@@ -11,6 +11,7 @@ import VerticalMenu from './elegant-vertical-menu/elegant-vertical-menu';
 import ImageTracer from './image-tracer/image-tracer';
 import GlowingCards from './glowing-cards/glowing-cards';
 import TextEffect from './text-effect/text-effect';
+import TwitchHoverCard from './twitch-hover-card/twitch-hover-card';
 
 import './index.css'
 
@@ -18,5 +19,5 @@ const rootElement = document.getElementById('root');
 const root = ReactDOM.createRoot(rootElement!);
 
 root.render(
-  <TextEffect />
+  <TwitchHoverCard />
 );
