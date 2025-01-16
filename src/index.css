@@ -18,3 +18,10 @@ body {
   display: flex;
   place-items: center;
 }
+
+.error-text {
+  color: rgb(173, 64, 75);
+  font-family: "Anek Latin", sans-serif;
+  font-weight: 400;
+  margin: 0px;
+}
